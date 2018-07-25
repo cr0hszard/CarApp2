@@ -1,0 +1,16 @@
+{
+  "name": "carapp2",
+  "version": "1.0.0",
+  "description": "AngularJS scripts and unit testing",
+  "main": "index.js.js",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

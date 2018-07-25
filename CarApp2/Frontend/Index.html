@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CarApp Homepage</title>
+   
+    <link href="IndexStyle.css" type="text/css" rel="stylesheet">
+</head>
+
+<body ng-app="indexRouting">
+    <table class="navBar">
+        <tr>
+            <th class="navBarButton"><a class="navBarLink" href="#/!">Home Page</a></th>
+            <th class="navBarButton"><a class="navBarLink" href="#!addCar"> Add a car</a></th>
+            <th class="navBarButton"><a class="navBarLink" href="#!listCar">Car List</a></th>
+        </tr>
+
+    </table>
+
+    <div ng-view></div>
+   
+    <script src="../Scripts/node_modules/angular/angular.js"></script>
+    <script src="../Scripts/node_modules/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="indexRouting.js"></script>
+    <script type="text/javascript" src="../Scripts/app/services/ApiCom-service.js"></script>
+    <script type="text/javascript" src="../Scripts/app/services/Sorting-service.js"></script>
+    <script type="text/javascript" src="../Scripts/app/controllers/addCar-controller.js"></script>
+    <script type="text/javascript" src="../Scripts/app/controllers/car-controller.js"></script>
+
+</body>
+
+
+
+</html>

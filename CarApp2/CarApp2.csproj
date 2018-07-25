@@ -68,6 +68,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\app\controllers\addCar-controller.js" />
+    <Content Include="Scripts\app\controllers\car-controller.js" />
+    <Content Include="Scripts\app\services\ApiCom-service.js" />
+    <Content Include="Scripts\app\services\Sorting-service.js" />
+    <Content Include="Frontend\Index.html" />
+    <Content Include="Frontend\indexRouting.js" />
+    <Content Include="Frontend\IndexStyle.css" />
+    <Content Include="Frontend\Pages\addCar.html" />
+    <Content Include="Frontend\Pages\car.html" />
+    <Content Include="Frontend\Pages\HomePage.html" />
+    <Content Include="Frontend\Styles\addCarStyle.css" />
+    <Content Include="Frontend\Styles\carStyle.css" />
+    <Content Include="Frontend\Styles\HomePageStyle.css" />
+    <Content Include="Scripts\node_modules\angular-route\angular-route.js" />
+    <Content Include="Scripts\node_modules\angular-route\angular-route.min.js" />
+    <Content Include="Scripts\node_modules\angular-route\index.js" />
+    <Content Include="Scripts\node_modules\angular\angular-csp.css" />
+    <Content Include="Scripts\node_modules\angular\angular.js" />
+    <Content Include="Scripts\node_modules\angular\angular.min.js" />
+    <Content Include="Scripts\node_modules\angular\index.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +95,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Scripts\package.json" />
+    <Content Include="Scripts\node_modules\angular-route\angular-route.min.js.map" />
+    <Content Include="Scripts\node_modules\angular-route\bower.json" />
+    <Content Include="Scripts\node_modules\angular-route\LICENSE.md" />
+    <Content Include="Scripts\node_modules\angular-route\package.json" />
+    <Content Include="Scripts\node_modules\angular-route\README.md" />
+    <Content Include="Scripts\node_modules\angular\angular.min.js.gzip" />
+    <Content Include="Scripts\node_modules\angular\angular.min.js.map" />
+    <Content Include="Scripts\node_modules\angular\bower.json" />
+    <Content Include="Scripts\node_modules\angular\LICENSE.md" />
+    <Content Include="Scripts\node_modules\angular\package.json" />
+    <Content Include="Scripts\node_modules\angular\README.md" />
+    <Content Include="Scripts\package-lock.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
