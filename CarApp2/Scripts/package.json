@@ -2,14 +2,22 @@
   "name": "carapp2",
   "version": "1.0.0",
   "description": "AngularJS scripts and unit testing",
-  "main": "index.js.js",
+  "main": "app.js",
   "dependencies": {
     "angular": "^1.7.2",
     "angular-route": "^1.7.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "angular-mocks": "^1.7.2",
+    "chai": "^4.1.2",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.5",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "mocha": "^5.2.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma"
   },
   "author": "",
   "license": "ISC"

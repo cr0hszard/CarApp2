@@ -1,4 +1,6 @@
-﻿    var CarApp = angular.module("CarApp", ["ApiCom", "Sorting"]);
+﻿(function () {
+    'use strict';
+    var CarApp = angular.module("CarApp", ["ApiCom", "Sorting"]);
     //Angular Script that will get the data from the API model Car.cs in ~/WebApplicatio1/Models/Car.cs
 
 
@@ -24,10 +26,12 @@
                 $scope.carsView = $scope.cars;
                 $scope.carsFiltered = $scope.cars;
             }
-            var result = SearchService.search($scope.searchTerm, $scope.cars);
-            $scope.carsFiltered = result;
-            $scope.carsView = result;
-        };
+            else {
+                var result = SearchService.search($scope.searchTerm, $scope.cars);
+                $scope.carsFiltered = result;
+                $scope.carsView = result;
+            }
+            };
 
         $scope.clear = function () {
             $scope.carsView = $scope.cars;
@@ -67,9 +71,6 @@
             } else {
                 $scope.carsView = SortingService.mergeSortYear($scope.carsFiltered);
             }
-        };
-
-        var a = function (a) {
-            return a;
-        };
-}]);
+        };  
+    }]);  
+})();
