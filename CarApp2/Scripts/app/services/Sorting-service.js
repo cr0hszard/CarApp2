@@ -78,7 +78,7 @@
         //--------------------------------------reverseArray method-------------------------------------------
         this.reverseArray = function (arr) {
             let reverse = [];
-            for (i = 0; i < arr.length; i++) {
+            for (var i = 0; i < arr.length; i++) {
                 reverse[i] = arr[arr.length - i - 1];
             }
             return reverse;

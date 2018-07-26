@@ -21,13 +21,13 @@
 
             } else {
 
-                req = {
+                var req = {
                     Brand: $scope.Brand,
                     ProductionYear: $scope.ProductionYear
                 };
 
-                DataService.sendData(req);//Service used to send "req" to the API
-                div.innerHTML = "The Car " + $scope.Brand + " produced in " + $scope.ProductionYear + " was succesfully added to the DataBase";
+            DataService.sendData(req);//Service used to send "req" to the API
+            div.innerHTML = "The Car " + $scope.Brand + " produced in " + $scope.ProductionYear + " was succesfully added to the DataBase";
 
             }
         };

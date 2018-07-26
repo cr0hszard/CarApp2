@@ -11,27 +11,29 @@
         var listIsOrderedBrand = false;
         $scope.searchTerm = "";
 
+        GetData();        //The Controller retrieves data from the server 
 
-        //The Controller retrieves data from the server 
-        DataService.getData().then(function (response) {
 
-            $scope.cars = response.data;//We use $scope.cars to store the data recieved by the WebAPI as it is ordered by Id
-            $scope.carsFiltered = response.data;//the array of cars filtered  that we later sort with $scope.OrderBrand(),$scope.OrderId() and $scope.OrderYear() and assign to the $scope.carsView
-            $scope.carsView = response.data;//$scope.carsView is where we store the sorted and filtered array that is sent to ther view
-        });
+        function GetData() {
+            DataService.getData().then(function (response) {
+
+                $scope.cars = response.data;//We use $scope.cars to store the data recieved by the WebAPI as it is ordered by Id
+                $scope.carsFiltered = response.data;//the array of cars filtered  that we later sort with $scope.OrderBrand(),$scope.OrderId() and $scope.OrderYear() and assign to the $scope.carsView
+                $scope.carsView = response.data;//$scope.carsView is where we store the sorted and filtered array that is sent to ther view
+            });
+        }
         //--------------------------------------------Search Method--------------------------------------------------
 
         $scope.search = function () {
             if ($scope.searchTerm === "" || $scope.searchTerm === null) {
                 $scope.carsView = $scope.cars;
                 $scope.carsFiltered = $scope.cars;
-            }
-            else {
+            } else {
                 var result = SearchService.search($scope.searchTerm, $scope.cars);
                 $scope.carsFiltered = result;
                 $scope.carsView = result;
             }
-            };
+        };
 
         $scope.clear = function () {
             $scope.carsView = $scope.cars;

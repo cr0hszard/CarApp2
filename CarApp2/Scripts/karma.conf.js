@@ -20,7 +20,8 @@ module.exports = function (config) {
             "./app/services/ApiCom-service.js",
             "./app/services/Sorting-service.js",
             "./app/controllers/car-controller.js",
-            "./app/controllers/car-controller.spec.js"
+            "./testing/controllers/car-controller.spec.js",
+            "./testing/services/ApiCom-service.spec.js"
         ],
 
 

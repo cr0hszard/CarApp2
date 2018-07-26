@@ -73,6 +73,7 @@
     <Content Include="Scripts\app\controllers\addCar-controller.js" />
     <Content Include="Scripts\app\controllers\car-controller.js" />
     <Content Include="Scripts\app\services\ApiCom-service.js" />
+    <Content Include="Scripts\testing\services\ApiCom-service.spec.js" />
     <Content Include="Scripts\app\services\Sorting-service.js" />
     <Content Include="Frontend\Index.html" />
     <Content Include="Frontend\indexRouting.js" />
@@ -281,7 +282,7 @@
     <Content Include="Scripts\node_modules\type-detect\index.js" />
     <Content Include="Scripts\node_modules\type-detect\type-detect.js" />
     <Content Include="Scripts\node_modules\wrappy\wrappy.js" />
-    <Content Include="Scripts\app\controllers\car-controller.spec.js" />
+    <Content Include="Scripts\testing\controllers\car-controller.spec.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -17,6 +17,7 @@
         //DataService function used to send data to the WebAPI
         this.sendData = function (req) {
             $http.post("http://localhost:56206/api/Car/", req);
+           
         };
 
     });
