@@ -1,0 +1,40 @@
+﻿
+
+body {
+    $backgroundColor: rgb(199, 218, 236);
+    $fontBorderColor: rgb(12, 86, 155);
+    $addFormColor: rgb(179, 206, 231);
+
+
+    text-align: center;
+    background-color: $backgroundColor;
+
+
+    .Header {
+        text-align: center;
+        width: 100%;
+        color: $fontBorderColor;
+    }
+
+    .addDiv {
+        width: 100%;
+    }
+
+    .addForm {
+        width: 400px;
+        border-style: solid;
+        background-color: rgb(179, 206, 231);
+        color: $fontBorderColor;
+        border-radius: 10px;
+    }
+
+    .addInput {
+        background-color: $backgroundColor;
+        color: $fontBorderColor;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: $fontBorderColor;
+        margin: 3px;
+        border-width: 1.5px;
+    }
+}

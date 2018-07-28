@@ -70,10 +70,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Frontend\Styles\css\addCarStyle.css" />
     <Content Include="Scripts\app\controllers\addCar-controller.js" />
     <Content Include="Scripts\app\controllers\car-controller.js" />
     <Content Include="Scripts\app\services\ApiCom-service.js" />
-    <Content Include="Scripts\testing\services\ApiCom-service.spec.js" />
+    <Content Include="Scripts\testing\karma\services\ApiCom-service.spec.js" />
     <Content Include="Scripts\app\services\Sorting-service.js" />
     <Content Include="Frontend\Index.html" />
     <Content Include="Frontend\indexRouting.js" />
@@ -81,9 +82,8 @@
     <Content Include="Frontend\Pages\addCar.html" />
     <Content Include="Frontend\Pages\car.html" />
     <Content Include="Frontend\Pages\HomePage.html" />
-    <Content Include="Frontend\Styles\addCarStyle.css" />
-    <Content Include="Frontend\Styles\carStyle.css" />
-    <Content Include="Frontend\Styles\HomePageStyle.css" />
+    <Content Include="Frontend\Styles\css\carStyle.css" />
+    <Content Include="Frontend\Styles\css\HomePageStyle.css" />
     <Content Include="Scripts\karma.conf.js" />
     <Content Include="Scripts\node_modules\angular-mocks\angular-mocks.js" />
     <Content Include="Scripts\node_modules\angular-mocks\ngAnimateMock.js" />
@@ -282,13 +282,18 @@
     <Content Include="Scripts\node_modules\type-detect\index.js" />
     <Content Include="Scripts\node_modules\type-detect\type-detect.js" />
     <Content Include="Scripts\node_modules\wrappy\wrappy.js" />
-    <Content Include="Scripts\testing\controllers\car-controller.spec.js" />
+    <Content Include="Scripts\testing\karma\controllers\car-controller.spec.js" />
+    <Content Include="Scripts\testing\protractor\conf.js" />
+    <Content Include="Scripts\testing\protractor\protractor-spec.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Frontend\Styles\sass\addCarStyleSass.scss" />
+    <Content Include="Frontend\Styles\sass\carStyleSass.scss" />
+    <Content Include="Frontend\Styles\sass\HomePageStyleSass.scss" />
     <None Include="packages.config" />
     <Content Include="Scripts\package.json" />
     <Content Include="Scripts\package-lock.json" />

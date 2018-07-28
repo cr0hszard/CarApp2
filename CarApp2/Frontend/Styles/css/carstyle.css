@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-color: #c7daec;
+}
+body .clearButton, body .searchBox, body .button {
+  background-color: #c7daec;
+  color: #0c569b;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #0c569b;
+  margin: 5px;
+  border-width: 1.5px;
+}
+body .oddRow, body .evenRow {
+  width: 33.3%;
+  border: none;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  border-spacing: 0;
+  color: #0c569b;
+}
+body input,
+body select,
+body textarea {
+  max-width: 280px;
+}
+body h1 {
+  text-align: center;
+  width: 100%;
+  color: #0c569b;
+}
+body .dataTable {
+  width: 600px;
+  border-color: #0c569b;
+  border-style: solid;
+  border-radius: 10px;
+}
+body .dataTable table {
+  border-spacing: 0;
+  width: 100%;
+  border-style: none;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: #b3cee7;
+  overflow: hidden;
+}
+body .evenRow {
+  background-color: #b3cee7;
+}
+body .oddRow {
+  background-color: #93bfe7;
+}
+body .dataColumn {
+  width: 33.3%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=carstyle.css.map */

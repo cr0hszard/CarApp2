@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-color: #c7daec;
+}
+body .Header {
+  text-align: center;
+  width: 100%;
+  color: #0c569b;
+}
+body .addDiv {
+  width: 100%;
+}
+body .addForm {
+  width: 400px;
+  border-style: solid;
+  background-color: #b3cee7;
+  color: #0c569b;
+  border-radius: 10px;
+}
+body .addInput {
+  background-color: #c7daec;
+  color: #0c569b;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #0c569b;
+  margin: 3px;
+  border-width: 1.5px;
+}
+
+/*# sourceMappingURL=addcarstyle.css.map */
